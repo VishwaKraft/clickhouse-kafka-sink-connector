@@ -6,7 +6,7 @@
 
     <groupId>com.vishwakraft</groupId>
     <artifactId>clickhouse-kafka-sink-connector</artifactId>
-    <version>0.0.9</version>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
     <name>ClickHouse Kafka Sink Connector</name>
     <description>Sinks data from Kafka into ClickHouse</description>
