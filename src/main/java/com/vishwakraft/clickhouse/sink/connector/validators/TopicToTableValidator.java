@@ -8,7 +8,7 @@ import com.vishwakraft.clickhouse.sink.connector.common.Utils;
 /**
  * The TopicToTableValidator class is responsible for validating the topic-to-table mapping configuration
  * for the Kafka sink connector. It ensures that the format of the configuration follows the expected
- * format of comma-separated tuples in the form of <topic-1>:<table-1>,<topic-2>:<table-2>,...
+ * format of comma-separated tuples in the form of &lt;topic-1&gt;:&lt;table-1&gt;,&lt;topic-2&gt;:&lt;table-2&gt;,...
  * <p>
  * This validator is used when the connector is started or when the validate REST API is called to check
  * if the configuration is valid.
@@ -65,6 +65,6 @@ public class TopicToTableValidator implements ConfigDef.Validator {
      */
     public String toString() {
         return "Topic to table map format : comma-separated tuples, e.g."
-                + " <topic-1>:<table-1>,<topic-2>:<table-2>,... ";
+                + " &lt;topic-1&gt;:&lt;table-1&gt;,&lt;topic-2&gt;:&lt;table-2&gt;,... ";
     }
 }

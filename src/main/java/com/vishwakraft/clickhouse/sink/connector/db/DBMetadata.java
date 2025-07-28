@@ -621,7 +621,7 @@ public class DBMetadata {
      * @param tableName The name of the table.
      * @param database The name of the database.
      * @return A map of column names to their data types.
-     * @throws SQLException if an error occurs while querying the database.
+     * @throws RuntimeException if an error occurs while querying the database.
      */
     public Map<String, String> getColumnsDataTypesForTable(Connection conn, String tableName, String database) {
         // Add retry logic.

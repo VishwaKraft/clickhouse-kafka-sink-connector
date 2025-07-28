@@ -34,7 +34,7 @@ public class Utils {
     /**
      * Parses the topic-to-destination database configuration and returns it as a map.
      * <p>
-     * This method processes the input string in the format: <topic1>:<db1>,<topic2>:<db2>,...
+     * This method processes the input string in the format: &lt;topic1&gt;:&lt;db1&gt;,&lt;topic2&gt;:&lt;db2&gt;,...
      * It splits the input string by commas and colons to form key-value pairs, validating
      * each entry along the way. If any invalid format is found, an exception is thrown.
      * </p>
@@ -92,7 +92,7 @@ public class Utils {
     /**
      * Parses the topic-to-table configuration and returns it as a map.
      * <p>
-     * This method processes the input string in the format: <topic1>:<table1>,<topic2>:<table2>,...
+     * This method processes the input string in the format: &lt;topic1&gt;:&lt;table1&gt;,&lt;topic2&gt;:&lt;table2&gt;,...
      * It splits the input string by commas and colons to form key-value pairs, validating
      * each entry along the way. If any invalid format is found, an exception is thrown.
      * </p>
