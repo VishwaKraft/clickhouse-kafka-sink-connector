@@ -10,14 +10,14 @@
     <packaging>jar</packaging>
     <name>ClickHouse Kafka Sink Connector</name>
     <description>Sinks data from Kafka into ClickHouse</description>
-    <url>https://vishwakraft.com/</url>
+    <url>https://github.com/vishwakraft/clickhouse-kafka-sink-connector</url>
 
     <developers>
         <developer>
             <name>vishwakraft</name>
             <email>dev@vishwakraft.com</email>
             <organization>vishwakraft</organization>
-            <organizationUrl>https://vishwakraft.com</organizationUrl>
+            <organizationUrl>https://github.com/vishwakraft</organizationUrl>
         </developer>
     </developers>
 
